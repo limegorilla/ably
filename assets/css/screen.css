@@ -13,11 +13,6 @@ production stylesheet in assets/built/screen.css using: gulp dev
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* Fonts!
-/* ---------------------------------------------------------- */
-
-@import "fonts.css";
-
 /* Main - Your styles here! Edit below
 /* ---------------------------------------------------------- */
 
