@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: [
-        'aileron',
+        'IBM Plex Sans',
         'ui-sans-serif',
         'system-ui',
         '-apple-system',
@@ -26,7 +26,7 @@ module.exports = {
         'serif'
       ],
       mono: [
-        'IBM Plex Mono', 
+        'IBM Plex Mono',
         'ui-monospace',
         'SFMono-Regular',
         'Menlo',
@@ -55,7 +55,9 @@ module.exports = {
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      borderWidth: ['first'],
+    }
   },
   plugins: [
     require('@tailwindcss/typography')

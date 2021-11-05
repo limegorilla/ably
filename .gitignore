@@ -23,3 +23,6 @@ projectFilesBackup
 
 dist/
 assets/built/*
+*.eot
+*.otf
+*.woff

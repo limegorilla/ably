@@ -1,0 +1,50 @@
+/*
+
+This is a development CSS file which is compiled to a minified
+production stylesheet in assets/built/screen.css using: gulp dev
+
+*/
+
+/* Lib - Local component imports
+/* ---------------------------------------------------------- */
+
+/* Tailwind  */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Fonts!
+/* ---------------------------------------------------------- */
+
+@import "fonts.css";
+
+/* Main - Your styles here! Edit below
+/* ---------------------------------------------------------- */
+
+@layer base {
+    html {
+        @apply text-white tracking-tighter;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-serif
+    }
+}
+
+@layer components {
+    .gh-head-menu {
+        @apply flex items-center py-2;
+    }
+
+    .gh-head-menu .nav {
+        @apply inline-flex flex-nowrap items-center list-none overflow-scroll space-x-2;
+    }
+
+    .gh-head-menu .nav li {
+        @apply m-0 mb-1.5 p-0;
+    }
+
+    .gh-head-menu .nav a {
+        @apply inline-block;
+    }
+
+}
